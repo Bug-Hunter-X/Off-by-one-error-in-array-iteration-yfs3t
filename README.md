@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Perl when iterating over arrays. The `bug.pl` file contains the erroneous code, while `bugSolution.pl` provides the corrected version.  The error arises from incorrectly handling the array index during iteration.  The solution clarifies the use of $#array (array's last index) and ensures correct boundary handling.
